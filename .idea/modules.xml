@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/leyou.iml" filepath="$PROJECT_DIR$/leyou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-registry/ly-registry.iml" filepath="$PROJECT_DIR$/ly-registry/ly-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lygateway/lygateway.iml" filepath="$PROJECT_DIR$/lygateway/lygateway.iml" />
     </modules>
   </component>
 </project>
