@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ly-common" />
+        <module name="ly-gateway" />
         <module name="ly-registry" />
-        <module name="lygateway" />
+        <module name="ly-search" />
+        <module name="ly-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="leyou" target="1.8" />
+      <module name="ly-common" target="1.8" />
+      <module name="ly-gateway" target="1.8" />
+      <module name="ly-item" target="1.8" />
       <module name="ly-registry" target="1.8" />
+      <module name="ly-search" target="1.8" />
+      <module name="ly-upload" target="1.8" />
       <module name="lygateway" target="1.8" />
       <module name="lyregistry" target="1.8" />
     </bytecodeTargetLevel>
