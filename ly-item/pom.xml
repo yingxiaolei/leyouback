@@ -9,12 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.leyou.common</groupId>
+    <groupId>com.leyou.service</groupId>
     <artifactId>ly-item</artifactId>
     <!-- 设置打包方式为pom -->
     <packaging>pom</packaging>
 
     <modules>
+        <module>ly-item-interface</module>
+        <module>ly-item-service</module>
         <module>ly-item-interface</module>
         <module>ly-item-service</module>
     </modules>
