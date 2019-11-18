@@ -59,7 +59,7 @@ class BrandController {
     @PostMapping
     public ResponseEntity<Void> saveBrand(Brand brand, @RequestParam("cids") List<Long> cids) {
         mBrandService.saveBrand(brand, cids);
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        return ResponseEntity.ok(null);
     }
 
     /**

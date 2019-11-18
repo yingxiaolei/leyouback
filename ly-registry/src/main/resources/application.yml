@@ -5,5 +5,7 @@ spring:
     name: ly-registry
 eureka:
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
