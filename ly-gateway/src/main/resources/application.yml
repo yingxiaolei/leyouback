@@ -7,7 +7,7 @@ spring:
 eureka:
   client:
     service-url: # 映射路径对应的实际url地址
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10088/eureka
     registry-fetch-interval-seconds: 5
 #    fetch-registry: false # 去除自己的注册 ()
 #    register-with-eureka: false  (放开后会访问报错-待定)
