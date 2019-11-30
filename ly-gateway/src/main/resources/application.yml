@@ -16,6 +16,10 @@ zuul:
   prefix: /api  # 添加路由前缀
   routes:
     item-service: /item/**
+#    upload-service:
+#      path: /upload/**
+#      serviceId: upload-service
+  strip-prefix: false
 # 配置全局异常熔断时间
 hystrix:
   command:
